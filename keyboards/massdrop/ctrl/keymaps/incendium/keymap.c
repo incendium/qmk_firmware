@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______, _______, KC_P7,   KC_P8,   KC_P9,   KC_PAST, KC_PMNS, KC_PPLS, _______,   _______, _______, _______,
         _______, KC_HOME, KC_UP,   KC_END,  KC_PGUP, _______, _______, KC_P4,   KC_P5,   KC_P6,   KC_PSLS, _______, _______, KC_EQL,    _______, _______, _______,
         _LAYER_, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, KC_P1,   KC_P2,   KC_P3,   KC_PMNS, KC_PPLS, KC_PENT,
-        _______, _______, _______, _______, _______, _______, KC_P0,   KC_P0,   KC_P0,   KC_PDOT, KC_PSLS, _______,                              _______,
+        _______, _______, _______, _______, JB_PSTE, _______, KC_P0,   KC_P0,   KC_P0,   KC_PDOT, KC_PSLS, _______,                              _______,
         _______, _______, _______,                   _______,                            _______, _______, _______, _______,            _______, _______, _______
     ),
     [_FL] = LAYOUT(
@@ -96,7 +96,7 @@ const uint8_t PROGMEM ledmap[][DRIVER_LED_TOTAL][3] = {
         _______, _______, _______, _______, _______, _______, _______, GOLD,    GOLD,    GOLD,    GREEN,   GREEN,   GREEN,   _______,   _______, _______, _______,
         _______, CYAN,    AZURE,   CYAN,    TEAL,    _______, _______, GOLD,    RED,     GOLD,    GREEN,   _______, _______, GREEN,     _______, _______, _______,
         WHITE,   AZURE,   AZURE,   AZURE,   TEAL,    _______, _______, GOLD,    GOLD,    GOLD,    GREEN,   GREEN,   _______,
-        _______, _______, _______, _______, _______, _______, RED,     RED,     RED,     GREEN,   GREEN,   _______,                              _______,
+        _______, _______, _______, _______, GREEN,   _______, RED,     RED,     RED,     GREEN,   GREEN,   _______,                              _______,
         _______, _______, _______,                   _______,                            _______, _______, _______, _______,            _______, _______, _______
     },
     [_FL] = {

@@ -48,7 +48,13 @@
 #define M9B59B5 {HSV_9B59B5}
 // clang-format on
 
+// windows / some nix
 #define OS_LOCK RGUI(KC_L)
+
+// jetbrains ide - default keymap
+#define JB_PSTE LCTL(LALT(LSFT(KC_V))) // paste as plain text
+
+// layers
 #define LT_CAPS LT(_NL, KC_CAPS)
 #define LT_APP  LT(_ML, KC_APP)
 #define _LAYER_ KC_TRNS
